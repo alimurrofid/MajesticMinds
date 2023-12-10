@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\criteria_controller;
 use App\Http\Controllers\AlternatifController;
+use App\Http\Controllers\HitungController;
 use App\Http\Controllers\PenilaianController;
 use App\Http\Controllers\PerhitunganController;
 use App\Http\Controllers\HomeController;
@@ -34,6 +35,7 @@ Route::prefix('/')->group (function () {
     Route::resource('alternatif', AlternatifController::class);
     Route::resource('penilaian', PenilaianController::class);
     Route::resource('perhitungan', PerhitunganController::class);
+    Route::get('/hitung', [HitungController::class, 'index'])->name('hitung.index');
     Route::get('/',[HomeController::class, 'index'])->name('home.index');
     // Route::get('/alternatif', function () {
     //     return view('dashboard.alternatif');
