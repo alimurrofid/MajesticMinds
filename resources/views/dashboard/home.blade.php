@@ -69,8 +69,8 @@
 
     </div>
 
-    <div class="bg-white dark:bg-slate-850 p-3 mt-3 rounded-lg border border-blue-500 dark:border-slate-800">
-        <iframe src="{{asset('assets/jurnal/SPKPemberianRewarddanPunishment.pdf')}}" class="w-full h-96 rounded-lg" frameborder="0"></iframe>
+    <div class="p-3 mt-3 bg-white border border-blue-500 rounded-lg dark:bg-slate-850 dark:border-slate-800">
+        <iframe src="{{asset('assets/jurnal/SISTEM PENDUKUNG KEPUTUSAN MENENTUKAN SISWA.pdf')}}" class="w-full rounded-lg h-96" frameborder="0"></iframe>
     </div>
 
 
